@@ -7,10 +7,13 @@ nav{
     background-color: #659dbd;
 }
 header{
-    background-color: white;
+    padding-top: 1%;
+    text-align: center;
+    background-color: #89b4cc;
 }
 section{
-    background-color: white;
+    text-align: center;
+    background-color: #89b4cc;
     padding-bottom: 2%;
 }
 footer{
@@ -18,7 +21,7 @@ footer{
     padding-bottom: 1%;
 }
 .info{
-    padding-top: 2%;
+    margin-top: 2%;
     height: 100%;
 }
 .navigation{
@@ -35,7 +38,9 @@ footer{
 }
 
 .head{
+    padding-left: 1%;
     padding-top: 1%;
+    background-color: white;
 }
 
 .button{
@@ -43,6 +48,8 @@ footer{
 }
 
 .main{
+    background-color: white;
+    padding-left: 1%;
     padding-top: 3%;
 }
 
@@ -56,7 +63,12 @@ footer{
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
 @media (min-width: 550px) {
-
+    header{
+        text-align: left;
+    }
+    section{
+        text-align: left;
+    }
 }
 
 /* Larger than tablet */
@@ -68,6 +80,7 @@ footer{
 /* Larger than desktop */
 /* applies to all widths 100px and greater */
 @media (min-width: 850px) {
+
     .navigation{
         text-align: center;
     }
