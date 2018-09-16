@@ -44,7 +44,13 @@ footer{
     padding-top: 1%;
     background-color: white;
 }
-
+.image{
+    text-align: center;
+    padding-top: 1%;
+}
+.image img{
+    width: 70%;
+}
 .button{
     width: 100%;
 }
