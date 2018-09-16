@@ -49,7 +49,7 @@ footer{
     padding-top: 1%;
 }
 .image img{
-    width: 70%;
+    width: 90%;
 }
 .button{
     width: 100%;
@@ -101,6 +101,10 @@ footer{
 /* Larger than Desktop HD */
 /* applies to 1200px and greater */
 @media (min-width: 1200px) {
+    .image img{
+        width: 70%;
+    }
+
     .navigation{
         text-align: center;
     }
